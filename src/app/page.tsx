@@ -61,7 +61,7 @@ export default function Home() {
               value={userId}
               onChange={(e) => setUserId(e.target.value)}
               required
-              className="w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
+              className="w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 text-black"
             />
           </div>
           <button
